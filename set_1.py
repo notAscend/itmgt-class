@@ -17,5 +17,3 @@ def material_waste(total_material, material_units, num_jobs, job_consumption):
 def interest(principal, rate, periods):
     final = principal+principal*(rate*periods)
     return int(final)
-
-print(1)
